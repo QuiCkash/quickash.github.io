@@ -1,0 +1,75 @@
+body{
+    background-color: #ffb997;
+}
+.row{
+    position: relative;
+    height: 200px;
+    top: 250px;
+    left: 120px;
+
+}
+.col-sm-5{
+    text-align: center;
+  
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    top: 150px;
+
+}
+
+#factures-img {
+    position: relative;
+    background-image: url(factures.jpg);
+    bottom: 80px;
+    border-radius: 10px;
+    right: 50px;
+}
+#factures-img:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+
+#produits-img{
+    position: relative;
+    background-image: url(produits.png);
+    border-radius: 10px;
+    right: 50px;
+
+}
+#produits-img:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+#statistiques-img{
+    position: relative;
+    background-image: url(statistiques.png);
+    right: -30px;
+    border-radius: 10px;
+}
+#statistiques-img:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+#caissiers-img{
+    position: relative;
+    background-image: url(caissiers.jpg);
+    bottom: 80px;
+    right: -30px;
+    border-radius: 10px;
+}
+#caissiers-img:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+body{
+    background-image: url(rose.jpg);
+}
