@@ -34,13 +34,13 @@ var TableFilter = (function() {
  
 	})();
 
-  /*console.log(document.readyState);
+  console.log(document.readyState);
 	document.addEventListener('readystatechange', function() {
 		if (document.readyState === 'complete') {
       console.log(document.readyState);
 			TableFilter.init();
 		}
-	}); */
+	}); 
   
  TableFilter.init(); 
 })();
